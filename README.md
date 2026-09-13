@@ -19,7 +19,7 @@ This page groups the public resources behind the session's three questions:
 - [Session Tracing Data Model](https://help.salesforce.com/s/articleView?id=ai.generative_ai_session_trace_data_model.htm&type=5) - Official reference for the model used to organize Agentforce session evidence.
 - [Customer 360 Data Model](https://help.salesforce.com/s/articleView?id=sf.c360_a_c360datamodel.htm&type=5) - Background on Data 360 data modeling.
 - [Data Model Subject Areas](https://help.salesforce.com/s/articleView?id=sf.c360_a_data_model_subject_areas.htm&type=5) - How standard Data Model Objects are organized.
-- [Data 360 Query API](https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/c360a-api-query-v2-call-overview.html) - Developer reference for querying Data 360 data.
+- [Data 360 Query API](https://developer.salesforce.com/docs/data/data-cloud-query-guide/references/data-cloud-query-api-reference/c360a-api-queryservices-overview.html) - Developer reference for querying Data 360 data.
 - [Einstein Audit and Feedback Data Model](https://developer.salesforce.com/blogs/2024/07/the-einstein-audit-and-feedback-data-model-in-data-cloud) - Supporting background on audit and feedback data. This is related context, not the same model as session tracing.
 
 ## Evals and Testing
@@ -42,16 +42,6 @@ Command behavior, flags, product availability, licenses, and supported test runn
 
 Alert metrics are operational signals. A threshold breach starts an investigation; it does not by itself prove hallucination, semantic drift, retrieval failure, or root cause.
 
-## Presentation Development
-
-Gemini and NotebookLM assisted with brainstorming, organization, synthesis, and wording during presentation development. They were not treated as authoritative technical sources. Technical claims were reviewed against the public Salesforce resources above.
-
-- [NotebookLM workspace used during deck development](https://notebook.google.com/notebook/3953e95e-c5f5-46b6-ae8f-1f43652d06bb) - This notebook contains internal/confidential sources and requires access. It is listed for provenance only and is not an attendee-accessible technical reference.
-- [Gemini Apps Privacy Hub](https://support.google.com/gemini/answer/13594961)
-- [NotebookLM Help](https://support.google.com/notebooklm/)
-
-The private notebook included internal enablement material and presentation drafts. None of those source files, notebook conversations, or generated claims should be copied into this public repository unless they receive separate publication approval. Where a notebook-generated claim could not be supported by public documentation or verified product behavior, it was corrected or omitted from the final attendee resources.
-
 ## Important Notes
 
 - Product behavior, terminology, availability, licenses, limits, and documentation can change after this page is published.
@@ -60,10 +50,6 @@ The private notebook included internal enablement material and presentation draf
 - Testing Center and runtime scoring are related but distinct evaluation surfaces.
 - Different scorers can use different labels and scales.
 - Traces provide evidence, evals apply criteria, and alerts signal when investigation may be needed.
-
-## AI-Assistance Disclosure
-
-This resource accompanies a Dreamforce presentation and is provided for educational purposes. Gemini and NotebookLM assisted with research organization, drafting, and synthesis. The presenters reviewed the published material, but generative AI can produce incomplete or inaccurate content. AI-generated output is not an authoritative technical source. Verify technical claims, product behavior, availability, limits, security guidance, and licensing requirements against the linked official documentation before relying on or implementing them.
 
 ## Public-Release Checklist
 
