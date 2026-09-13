@@ -26,7 +26,6 @@ This page groups the public resources behind the session's three questions:
 
 - [Agentforce Testing Center](https://help.salesforce.com/s/articleView?id=ai.agent_testing_center.htm&type=5) - Batch testing, test scenarios, scorers, and result analysis. Salesforce recommends running agent tests in a sandbox because tests can modify CRM data.
 - [Agentforce Testing Tools and Strategies](https://trailhead.salesforce.com/content/learn/modules/agentforce-testing-tools-and-strategies) - Trailhead guidance for designing an agent-testing strategy.
-- [Agentforce Testing Center on Trailhead](https://trailhead.salesforce.com/content/learn/modules/agentforce-testing-center) - Guided learning for Testing Center.
 
 ## Evals in CI/CD
 
@@ -50,17 +49,5 @@ Alert metrics are operational signals. A threshold breach starts an investigatio
 - Testing Center and runtime scoring are related but distinct evaluation surfaces.
 - Different scorers can use different labels and scales.
 - Traces provide evidence, evals apply criteria, and alerts signal when investigation may be needed.
-
-## Public-Release Checklist
-
-- [ ] Open every link without an employee login.
-- [ ] Confirm each page title and remove links that redirect to unavailable content.
-- [ ] Recheck alert timing, metric, and notification claims against the current Help article.
-- [ ] Recheck CLI commands against the current `plugin-agent` documentation.
-- [ ] Add the public slide deck or recording only if event policy permits redistribution.
-- [ ] Use only synthetic or explicitly approved data in screenshots and videos.
-- [ ] Remove org URLs, session IDs, email addresses, credentials, internal notes, and unpublished product details.
-- [ ] Add an appropriate repository license only after confirming rights to all repository content.
-- [ ] Complete technical, privacy, legal/IP, accessibility, and event-policy review.
 
 Last reviewed: September 2026.
